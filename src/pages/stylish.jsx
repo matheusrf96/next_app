@@ -1,12 +1,13 @@
 import styles from '../styles/stylish.module.css'
-import Link from 'next/link'
+import Layout from '../components/Layout'
 
 
-export default function Stylish() {
+export default function Stylish(props) {
     return (
-        <div className={ styles.purple }>
-            <Link href="/">Voltar</Link>
-            <h1>Estilo usando CSS módulos</h1>
-        </div>
+        <Layout title="Exemplo de CSS modularizado">
+            <div className={ styles.purple }>
+                <h1>Estilo usando CSS módulos</h1>
+            </div>
+        </Layout>
     )
 }
