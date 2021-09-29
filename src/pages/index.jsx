@@ -7,6 +7,7 @@ export default function Home() {
         <div className={ styles.main }>
             <Browser destination="/stylish" text="Estiloso" color="crimson" />
             <Browser destination="/example" text="Exemplo" />
+            <Browser destination="/navigation" text="Navegação" color="orange" />
         </div>
     )
 }
