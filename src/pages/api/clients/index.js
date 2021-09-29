@@ -10,8 +10,8 @@ export default function client(req, res) {
 
 function handleGet(req, res) {
     res.status(200).json({
-        id: 3,
-        name: 'Nothing',
-        age: 23,
+        id: 5,
+        name: req.query.name || null,
+        age: parseInt(req.query.age) || null,
     })
 }
