@@ -10,6 +10,7 @@ export default function Home() {
             <Browser destination="/navigation" text="Navegação #01" color="orange" />
             <Browser destination="/client/store-a/123" text="Navegação #02" color="blue" />
             <Browser destination="/state" text="Componente com estado" color="pink" />
+            <Browser destination="/integration_1" text="Integração com API #01" color="#a45b71" />
         </div>
     )
 }
